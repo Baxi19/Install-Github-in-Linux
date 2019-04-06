@@ -1,0 +1,32 @@
+This is a git setup on LInux:
+
+1-Add:
+	sudo apt-get install git
+2-Conf:
+	git config --global user.name ´User´
+	git config --global user.email ´Password´
+	
+3-New local repository:
+	git init ´Repositoryś name´
+	cd ´Repositoryś name´
+
+4-New Readme file:
+	gedit README
+5-Add repository files to an index
+	#include<studio.h>
+	int main()
+	{
+	printf(¨Hello Word);
+	return 0;
+	}
+
+	git add README
+	git add sample.c
+6:Commit changes:
+	git commit -m´message´
+
+8:Push:
+	git remote add origin https://github.com/´User´/MyTest.git
+	git push origin master
+
+	
